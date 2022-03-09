@@ -12,4 +12,8 @@
       <ProjectReference Include="..\CsharpGenericPoc.Domain.Entities\CsharpGenericPoc.Domain.Entities.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.2" />
+    </ItemGroup>
+
 </Project>
